@@ -13,7 +13,6 @@ public class JavaMysqlSelectExample
       Class.forName(myDriver);
       Connection conn = DriverManager.getConnection(myUrl, "root", "");
 
-	  
       String query = "SELECT * FROM *";
 
       Statement st = conn.createStatement();
